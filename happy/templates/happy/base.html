@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'happy/style.css' %}" />
+    <title>Happy</title>
+  </head>
+  <body>
+    <div class='img-json-container'>
+      <div class='img-json-center'>
+        <img src='{{ img_json.url }}' class='img-json'>
+      </div>
+    </div>
+
+    <div class="next-btn-container">
+      <button class="next-button">
+        <a href="{% url "json_img" %}"> 
+          <img src="{% static "happy/insta-arrow.png" %}" alt="Next Button">
+        </a>
+      </button>
+    </div>
+  </body>
+</html>

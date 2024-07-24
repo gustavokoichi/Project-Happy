@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(255, 219, 17);
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* .next-btn-container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 30%;
+} */
+
+.next-btn-container {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: fit-content;
+}
+
+.next-button {
+  background-color: transparent;
+  transform: rotate(180deg);
+  border: none;
+  padding: 0;
+}
+
+.img-json-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img-json {
+  width: 100%;
+  height: auto;
+}
+
+.img-json {
+  max-width: 800px;
+  max-height: 800px;
+}
